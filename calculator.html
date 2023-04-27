@@ -1,12 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
+    <title>THEMED CALCULATOR</title>
+    <link rel="shortcut icon" href=".\calculator.png" type="image/x-icon">
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="calculator dark">
+            <div class="theme-toogle active">
+                <i class="toogl"></i>
+            </div>
+            <div class="display-screen">
+                <div class="display"></div>
+            </div>
+            <div class="buttons">
+                <table>
+                    <tr>
+                        <td>
+                            <button class="btn-operator" id="clearAll">AC</button>
+                        </td>
+                        <td>
+                            <button class="btn-operator" id="open-bracket">(</button></td>
+                        </td>
+                        <td>
+                            <button class="btn-operator" id="close-bracket">)</button>
+                        </td>
+                        <td>
+                            <button class="btn-operator" id="backspace"><<</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn-number" id="seven">7</button>
+                        </td>
+                        <td>
+                            <button class="btn-number" id="eight">8</button></td>
+                        </td>
+                        <td>
+                            <button class="btn-number" id="nine">9</button>
+                        </td>
+                        <td>
+                            <button class="btn-operator" id="quotient">/</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn-number" id="four">4</button>
+                        </td>
+                        <td>
+                            <button class="btn-number" id="five">5</button></td>
+                        </td>
+                        <td>
+                            <button class="btn-number" id="six">6</button>
+                        </td>
+                        <td>
+                            <button class="btn-operator" id="product">*</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn-number" id="one">1</button>
+                        </td>
+                        <td>
+                            <button class="btn-number" id="two">2</button></td>
+                        </td>
+                        <td>
+                            <button class="btn-number" id="three">3</button>
+                        </td>
+                        <td>
+                            <button class="btn-operator" id="difference">-</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn-decimal" id="decimal">.</button>
+                        </td>
+                        <td>
+                            <button class="btn-number" id="zero">0</button></td>
+                        </td>
+                        <td>
+                            <button class="btn-equal" id="equal">=</button>
+                        </td>
+                        <td>
+                            <button class="btn-operator" id="sum">+</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
