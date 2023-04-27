@@ -1,2 +1,2 @@
 # themed-calculator
-themed-calculator dark mode light mode
+simple calculator dark and light mode
