@@ -25,5 +25,6 @@ const calculator = document.querySelector(".dark");
 let isDark = true;
 themeToggleBtn.onclick = () => {
     calculator.classList.toggle("dark");
-    themeToggleBtn.classList
+    themeToggleBtn.classList.toggle("active");
+    isDark = !isDark;
 }
